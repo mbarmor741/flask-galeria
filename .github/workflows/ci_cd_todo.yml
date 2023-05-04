@@ -41,7 +41,7 @@ jobs:
       - name: Build and push Docker image
         uses: docker/build-push-action@v4
         with:
-          context: galeria/.
+          context: ./galeria
           push: true 
           tags: ${{ secrets.DOCKERHUB_USERNAME }}/galeria:latest
       # - name: Sleep for 60 seconds
