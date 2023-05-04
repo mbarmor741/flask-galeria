@@ -4,11 +4,11 @@ on:
   push:
     branches: [ main ]
     paths:
-      - galeria/src/**
+      - src/**
   pull_request:
     branches: [ main ]
     paths:
-      - galeria/src/**
+      - src/**
 
 jobs:
 
@@ -41,8 +41,7 @@ jobs:
       - name: Build and push Docker image
         uses: docker/build-push-action@v4
         with:
-          context: ./galeria
-          file: ./galeria/Dockerfile
+          context: .
           push: true 
           tags: ${{ secrets.DOCKERHUB_USERNAME }}/galeria:latest
       # - name: Sleep for 60 seconds
