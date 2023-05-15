@@ -1,6 +1,6 @@
 # From https://github.com/datademofun/heroku-basic-flask
 # Nota: en ese tutorial se ve como hacerlo
-# - con Heroku CLIhbrthrth
+# - con Heroku CLIhbrthrthililiu
 # - sin usar GitHub
 #   Aunque luego al final lo manda a GitHub
 
