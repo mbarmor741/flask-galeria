@@ -63,8 +63,8 @@ jobs:
         script: |
             sleep 30
             docker stop web && docker rm web
-            docker rmi mbarmor741/flask-galeria
-            docker run -d -p 80:5000 --name web mbarmor741/flask-galeria
+            docker rmi mbarmor741/galeria
+            docker run -d -p 80:5000 --name web mbarmor741/galeria
             sleep 30
   curl:
     name: Test URL con curl
