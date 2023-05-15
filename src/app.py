@@ -13,6 +13,8 @@ app = Flask(__name__)
 locale.setlocale(locale.LC_TIME, '')
 
 
+
+
 @app.route('/')
 def homepage():
 
