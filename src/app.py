@@ -1,6 +1,6 @@
 # From https://github.com/datademofun/heroku-basic-flask
 # Nota: en ese tutorial se ve como hacerlo
-# - con Heroku CLI
+# - con Heroku CLIhbrthrth
 # - sin usar GitHub
 #   Aunque luego al final lo manda a GitHub
 
@@ -11,8 +11,6 @@ import locale
 
 app = Flask(__name__)
 locale.setlocale(locale.LC_TIME, '')
-
-
 
 
 @app.route('/')
